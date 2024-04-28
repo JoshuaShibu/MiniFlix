@@ -1,2 +1,2 @@
 # MiniFlix
-MiniFlix is a simple movie site project based on Vue
+A simple movie site project based on Vue
