@@ -456,6 +456,9 @@
     left: 10%;
     transform: translateY(-50%);
   }
+  .banner-content h1 {
+    font-size: 30px;
+  }
   .banner-title {
     font-size: 36px;
     margin-bottom: 20px;
@@ -463,5 +466,16 @@
 
   .banner-description {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .banner-description {
+    display: none;
   }
 }
